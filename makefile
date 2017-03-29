@@ -1,4 +1,4 @@
-TARGETS = cv
+TARGETS = cv bell-labs
 
 TEXFILES = $(wildcard *.tex) $(wildcard */*.tex)
 PDFS = $(addsuffix .pdf,$(TARGETS))
